@@ -1,0 +1,34 @@
+.check-form .invalid-feedback,
+.check-form .valid-feedback,
+.registration-form .invalid-feedback,
+.registration-form .valid-feedback {
+    display: none;
+}
+
+.check-form .form-control:user-invalid,
+.check-form .form-select:user-invalid,
+.registration-form .form-control:user-invalid,
+.registration-form .form-select:user-invalid {
+    border-color: red;
+}
+
+.check-form .form-control:user-valid,
+.check-form .form-select:user-valid,
+.registration-form .form-control:user-valid,
+.registration-form .form-select:user-valid {
+    border-color: green;
+}
+
+.check-form .form-control:user-invalid ~ .invalid-feedback,
+.check-form .form-select:user-invalid ~ .invalid-feedback,
+.registration-form .form-control:user-invalid ~ .invalid-feedback,
+.registration-form .form-select:user-invalid ~ .invalid-feedback {
+    display: block;
+}
+
+.check-form .form-control:user-valid ~ .valid-feedback,
+.check-form .form-select:user-valid ~ .valid-feedback,
+.registration-form .form-control:user-valid ~ .valid-feedback,
+.registration-form .form-select:user-valid ~ .valid-feedback {
+    display: block;
+}
