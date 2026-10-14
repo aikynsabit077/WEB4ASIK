@@ -43,10 +43,6 @@ During this assignment, I practiced creating HTML forms, using HTML5 validation 
 - CSS3
 - Bootstrap 5
 
-## GitHub
-
-[Add your GitHub repository link here]
-
 ## Link to Website
 
-[Add your GitHub Pages link here, if available]
+(https://aikynsabit077.github.io/WEB4ASIK/)
